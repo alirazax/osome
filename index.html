@@ -3,10 +3,800 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>osome</title>
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: Poppins;
+      }
+
+      .first-container {
+        width: 100%;
+        height: 120px;
+      }
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .nav-button > button {
+        font-size: xx-large;
+        border-radius: 40px;
+        border: 1.5px solid black;
+        margin-left: -4px;
+        background-color: #ffffff;
+      }
+      .logo-container {
+        display: flex;
+      }
+
+      .second-container {
+        position: relative;
+      }
+      .incorporation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        position: relative;
+      }
+
+      .business {
+        background-color: rgba(161, 204, 158, 1);
+        border-radius: 50px;
+        color: rgb(227, 2);
+        font-size: 80px;
+        border: 0;
+        margin-top: -35px;
+      }
+      .cap {
+        position: absolute;
+        top: 45px;
+        left: 130px;
+      }
+
+      .downarrow {
+        position: absolute;
+        right: 110px;
+        top: 70px;
+      }
+      .Vector {
+        position: absolute;
+        right: 170px;
+        top: 300px;
+      }
+      .singer {
+        position: absolute;
+        right: 10px;
+        top: 230px;
+      }
+      .ladyy {
+        position: absolute;
+        top: 290px;
+        left: 70px;
+      }
+      .lady {
+        position: absolute;
+        left: -10px;
+        top: 130px;
+      }
+      .third-container {
+        display: flex;
+        gap: 10px;
+        margin: 20px;
+        position: relative;
+        justify-content: center;
+      }
+      .leftpart-third {
+        width: 650px;
+        height: 650px;
+        background-color: rgba(245, 200, 158, 1);
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+      }
+
+      .flexible-services {
+        width: 500px;
+        height: 580px;
+        position: relative;
+        background-color: #ffffff;
+        margin-top: 70px;
+        border-radius: 30px;
+        border-end-end-radius: 0;
+        border-bottom-left-radius: 0;
+      }
+      .third-right {
+        width: 650px;
+        height: 650px;
+        border-radius: 30px;
+
+        position: relative;
+        overflow: hidden;
+        justify-content: center;
+
+        align-items: center;
+
+        background-image: url(AdobeStock_297865307-removebg-preview.png);
+        background-size: cover;
+        background-color: rgba(235, 237, 234, 255);
+      }
+
+      .subtract {
+        position: absolute;
+      }
+
+      .hassle-free {
+        display: flex;
+
+        position: absolute;
+        right: 10px;
+        top: 8px;
+      }
+
+      .curvetwo {
+        position: absolute;
+
+        top: -78px;
+        right: 120px;
+      }
+      .curveone {
+        position: absolute;
+
+        top: 184px;
+        left: 13px;
+      }
+      .newsaler {
+        width: 230px;
+        height: 210px;
+        border-radius: 30px;
+        position: absolute;
+        top: 310px;
+        right: 40px;
+
+        background-color: rgba(255, 255, 255, 255);
+      }
+      .newsalel {
+        width: 150px;
+        height: 158px;
+        border-radius: 30px;
+        position: absolute;
+        top: 440px;
+        right: 470px;
+
+        background-color: rgba(255, 255, 255, 255);
+      }
+      .linee {
+        width: 140px;
+        height: 40px;
+        margin-top: -10px;
+        margin-left: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .getstarted {
+        width: 200px;
+        height: 55px;
+        border-radius: 30px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+      }
+      .fouth-container {
+        width: 100%;
+        height: 400px;
+        background-color: white;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .fourone {
+        width: 40%;
+        height: 300px;
+
+        margin-left: 10px;
+      }
+      .fourtwo {
+        width: 20%;
+        height: 300px;
+        position: relative;
+      }
+      .special {
+        font-family: "Permanent Marker";
+        position: absolute;
+        top: -15px;
+        left: -80px;
+        transform: rotate(-30deg);
+        line-height: 14px;
+      }
+      .fourthree {
+        width: 40%;
+        height: 300px;
+        position: relative;
+      }
+      .fourtwoa {
+        width: 283px;
+        height: 300px;
+      }
+    </style>
   </head>
   <body>
-    Hi this is osome main page
-    <h1>this is my first project</h1>
+    <!--this is the first container like nav bar-->
+    <div class="first-container">
+      <div class="navbar">
+        <div class="logo-container">
+          <img
+            style="width: 40px; height: 40px; margin-top: 23px"
+            src="logo.svg "
+            alt="logo"
+          />
+
+          <p
+            style="
+              display: inline;
+              margin-top: 18px;
+
+              font-size: xx-large;
+            "
+          >
+            Osome
+          </p>
+        </div>
+
+        <div class="nav-button">
+          <button><span>&#9679; </span>Home</button>
+          <button><span>&#9675; </span>Secretary</button>
+          <button><span>&#9675; </span>Accounting</button>
+          <button><span>&#9675; </span>Resources</button>
+        </div>
+        <img
+          style="width: 60px; height: 60px"
+          src="profile-circle-svgrepo-com.svg"
+          alt=""
+        />
+      </div>
+    </div>
+    <!--this is second main div in which incorporation and expert text-->
+    <div class="second-container">
+      <div class="incorporation">
+        <h1 style="font-size: 90px">Incorporation and Expert</h1>
+        <h2 style="font-size: 90px; margin-top: -25px">
+          Accounting for better
+        </h2>
+        <button class="business">businesses</button>
+      </div>
+      <!--in this seccion of second container  absolue pictur added -->
+      <div class="cap">
+        <img src="capf.svg" alt="cap" />
+      </div>
+      <div class="downarrow">
+        <img src="downarrowf.svg" alt="downarrow" />
+      </div>
+      <div class="Vector">
+        <img src="roundarrowf.svg" alt="roundarrow" />
+      </div>
+      <div class="lady">
+        <img src="ladyy.svg" alt="lady" />
+      </div>
+      <div class="ladyy">
+        <img src="singer.svg" alt="ladyy" />
+      </div>
+      <div class="singer">
+        <img src="lady.svg" alt="singer" />
+      </div>
+    </div>
+    <!--this is my third container in which two div -->
+    <div class="third-container">
+      <!--left part of third container in which flexilbe service box-->
+      <div class="leftpart-third">
+        <div class="flexible-services">
+          <div
+            style="
+              width: 160px;
+              height: 50px;
+              margin: auto;
+              background-color: #f5c89e;
+            "
+          ></div>
+          <h4 style="text-align: center">
+            <br />Flexible services <br />
+            of your business
+          </h4>
+
+          <!--this is a div of switch to osomo-->
+          <div
+            style="
+              width: 300px;
+              height: 360px;
+              text-align: center;
+              border-radius: 20px;
+              position: absolute;
+              right: 30px;
+              top: 180px;
+
+              background-color: rgba(235, 242, 255, 1);
+            "
+          >
+            <p style="font-size: 25px; margin: -5px"><br />Switch to Osomo</p>
+            <img
+              style="width: 250px; height: 250px"
+              src="Group 20.svg"
+              alt=""
+            />
+            <p style="font-size: 25px; margin: 0%"><u>Accounting</u> &#8594;</p>
+          </div>
+
+          <!--this is a div of start  to my business left side of flexible services -->
+          <div
+            style="
+              width: 300px;
+              height: 360px;
+              text-align: center;
+              border-radius: 20px;
+              position: absolute;
+              left: -145px;
+              top: 180px;
+
+              background-color: rgba(240, 252, 240, 1);
+            "
+          >
+            <p style="font-size: 25px; margin: -5px"><br />Start my business</p>
+            <img
+              style="width: 250px; height: 250px"
+              src="Group 20.svg"
+              alt=""
+            />
+            <p style="font-size: 25px; margin: 0%">
+              <u>For foreigners</u> &#8594;
+            </p>
+          </div>
+        </div>
+        <img
+          style="
+            width: 15px;
+            height: 15px;
+            position: absolute;
+            top: 7px;
+            left: 88px;
+          "
+          src="minilogo.svg"
+          alt="minilogo"
+        />
+        <img
+          style="
+            width: 15px;
+            height: 15px;
+            position: absolute;
+            top: 125px;
+            left: 130px;
+          "
+          src="minilogo.svg"
+          alt="minilogo"
+        />
+        <img
+          style="
+            width: 15px;
+            height: 15px;
+            position: absolute;
+            top: 20px;
+            left: 690px;
+          "
+          src="minilogo.svg"
+          alt="minilogo"
+        />
+        <img
+          style="
+            width: 15px;
+            height: 15px;
+            position: absolute;
+            top: 280px;
+            left: 665px;
+          "
+          src="minilogo.svg"
+          alt="minilogo"
+        />
+        <img
+          style="
+            width: 15px;
+            height: 15px;
+            position: absolute;
+            top: 510px;
+            left: 690px;
+          "
+          src="minilogo.svg"
+          alt="minilogo"
+        />
+      </div>
+      <!--this isthird container in which right side of Haslee free-->
+      <div class="third-right">
+        <div>
+          <img
+            class="curveone"
+            style="width: 850px; height: 467px"
+            src="curveonef.svg"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            class="curvetwo"
+            style="width: 450px; height: 700px"
+            src="curvetwof.svg"
+            alt=""
+          />
+        </div>
+        <div class="hassle-free">
+          <div>
+            <div>
+              <button
+                style="
+                  font-size: x-large;
+                  border-radius: 20px;
+                  background-color: rgba(255, 255, 255, 255);
+                  border: none;
+                  padding: 5px;
+                  margin-top: -3px;
+                "
+              >
+                Hassle-Free
+              </button>
+            </div>
+          </div>
+          <div
+            style="
+              width: 37px;
+              height: 37px;
+              background-color: rgba(255, 255, 255, 255);
+              border-radius: 20px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin-top: -1px;
+              margin-right: 10px;
+            "
+          >
+            <img
+              style="width: 20px; height: 20px"
+              src="star-svgrepo-com.svg"
+              alt=""
+            />
+          </div>
+          <div style="position: relative">
+            <div class="newsalel">
+              <p style="padding-left: 13px; font-size: 18px; margin-top: 7px">
+                Pay Apple Pte
+              </p>
+
+              <p style="padding-left: 13px; margin-top: -20px; font-size: 18px">
+                ltd invoice
+              </p>
+
+              <p style="padding-left: 13px; font-size: 16px; margin-top: -15px">
+                <b>$2,700</b>
+              </p>
+              <div style="margin-left: 1px; margin-top: -6px">
+                <br />
+                <button
+                  style="
+                    border-radius: 50px;
+                    background-color: rgba(255, 255, 255, 255);
+                    color: rgba(211, 231, 209, 1);
+                    border: rgba(211, 231, 209, 1) 2px solid;
+                    font-size: 16px;
+                    margin-top: px;
+                    margin-left: 11px;
+                  "
+                >
+                  Pay now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div style="position: relative">
+            <div class="newsaler">
+              <p style="padding-left: 10px; font-size: x-large">Net Sales</p>
+
+              <p
+                style="
+                  padding-left: 10px;
+                  font-size: x-large;
+                  margin-top: -10px;
+                "
+              >
+                $19,789
+                <img
+                  style="width: 15px; height: 15px; padding-left: 15px"
+                  src="small.svg"
+                  alt=""
+                />
+                <span style="color: rgba(211, 231, 209, 1); padding-right: 5px"
+                  >15%</span
+                >
+              </p>
+
+              <div class="linee">
+                <img
+                  style="
+                    height: 80px;
+                    width: 200px;
+                    position: relative;
+                    top: 20px;
+                    left: 40px;
+                  "
+                  src="volumef.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="getstarted">
+          <button
+            style="
+              border-radius: 50px;
+              color: white;
+              background-color: black;
+              border: 0px;
+              padding: 7px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            "
+          >
+            <span style="font-size: x-large">Get Started</span>
+            <span>&#8594; </span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--this is fourth main div that bascically called footer-->
+    <div class="fouth-container">
+      <div class="fourone">
+        <h3 style="font-size: 40px; margin-top: 0px">
+          smart software made <br />
+          for
+          <span
+            style="
+              text-decoration-line: underline;
+              text-decoration-color: rgba(245, 200, 158, 1);
+            "
+            >business owners
+          </span>
+        </h3>
+
+        <div style="display: flex">
+          <button
+            style="
+              width: 200px;
+              height: 50px;
+              border-radius: 30px;
+              background-color: black;
+              color: white;
+              border: 0px;
+              font-size: 30px;
+            "
+          >
+            Watch Demo
+          </button>
+          <button
+            style="
+              width: 50px;
+              height: 50px;
+              border-radius: 50px;
+              background-color: black;
+              color: white;
+              border: 0px;
+              margin: 0px;
+            "
+          >
+            <!-- <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 40 23"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-chevron-right;"
+            >
+              <polyline points="9 18 15 12 9 6" />
+            </svg> -->
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+              viewBox="0 0 26 20"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="0.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-play-circle"
+            >
+              <circle cx="12" cy="12" r="10" />
+              <polygon points="10 8 16 12 10 16 10 8" />
+            </svg>
+          </button>
+        </div>
+        <br /><br />
+        <h4 style="font-size: 18px; margin: 0px; color: #3f4145">
+          its your financial data, <br />
+          all in one place
+        </h4>
+      </div>
+      <!--this is the center part of footer in which picture include -->
+      <div class="fourtwo">
+        <img style="border-radius: 20px" src="footer.svg" alt="footer" />
+
+        <img
+          style="
+            width: 170px;
+            border-radius: 20px;
+            position: relative;
+            bottom: 295px;
+            right: 50px;
+            height: 300px;
+            object-fit: cover;
+          "
+          src="lady.jpeg"
+          alt=""
+        />
+        <p
+          style="
+            position: absolute;
+            top: 210px;
+            left: -80px;
+            background-color: #ffffff;
+            border-radius: 20px;
+            padding: 10px;
+            transform: rotate(3deg);
+          "
+        >
+          How Saved 10 Hours <br />
+          into Business Growth
+        </p>
+        <div
+          style="
+            width: 40px;
+            height: 40px;
+            border-radius: 50px;
+            background-color: whitesmoke;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 7px;
+            left: 84px;
+          "
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="feather feather-arrow-up-right"
+          >
+            <line x1="7" y1="17" x2="17" y2="7" />
+            <polyline points="7 7 17 7 17 17" />
+          </svg>
+        </div>
+        <div
+          style="
+            position: absolute;
+            bottom: -20px;
+            margin-left: -41px;
+            font-family: Arial, Helvetica, sans-serif;
+          "
+        >
+          _____
+          <span style="color: rgba(217, 217, 217, 1); width: 200px"
+            >____ ____ ____ ____
+          </span>
+        </div>
+        <div class="special">
+          New!<br />
+          <span style="margin-left: 15px"></span>v
+        </div>
+      </div>
+      <div class="fourthree">
+        <div
+          style="
+            width: 240px;
+            height: 1px;
+            background-color: black;
+            position: absolute;
+            top: 78px;
+            left: 120px;
+          "
+        ></div>
+
+        <div style="font-size: 50px; margin-left: 135px; margin-top: 75px">
+          89%
+        </div>
+
+        <div style="display: flex">
+          <div>
+            <p style="margin-left: 138px; font-size: 15px; margin-top: 0%">
+              of customers <br />
+              recommend<br />osomo services
+            </p>
+          </div>
+
+          <div>
+            <div
+              style="
+                width: 200px;
+                height: 200px;
+                background-color: rgba(235, 242, 255, 0.5);
+                border-radius: 100px;
+                margin-right: 100px;
+                position: absolute;
+                right: 20px;
+                top: 20px;
+                display: inline-block;
+              "
+            >
+              <span
+                style="
+                  padding-left: 80px;
+                  position: relative;
+                  top: 30px;
+                  color: rgb(15, 14, 13);
+                "
+                >2023</span
+              >
+              <div
+                style="
+                  width: 120px;
+                  height: 120px;
+                  background-color: rgba(240, 252, 240, 1);
+                  border-radius: 100px;
+                  margin-left: 43px;
+                  margin-top: 62px;
+                  display: inline-block;
+                "
+              >
+                <span
+                  style="
+                    padding-left: px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: relative;
+                    top: 30px;
+                  "
+                  >2022</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

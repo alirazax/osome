@@ -1,0 +1,25 @@
+.navmain {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+}
+.niv {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+}
+.logo {
+  width: 100px;
+  height: 40px;
+  background-color: white;
+}
+.home {
+  width: 200px;
+  height: 40px;
+  background-color: beige;
+}
+.profile {
+  width: 100px;
+  height: 40px;
+  background-color: azure;
+}
